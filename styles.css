@@ -1,0 +1,87 @@
+* { 
+text-align: center;
+}
+
+.header { padding-top: 50px;
+padding-bottom: 50px;}
+
+h1 { border-style: groove;
+border-width: 5px;
+border-color: darkblue;
+margin-top: 50px;
+margin-bottom: 10px;
+padding: 10px;
+color: azure;
+background-color: dodgerblue;
+display: inline;
+}
+
+p { border-style: double;
+margin: 0px 100px;
+background-color: mediumblue;
+border-width: 3px;
+color: dodgerblue;
+display: inline-block;
+padding: 7px;
+margin-top: 20px;
+text-align: center;}
+
+div { color: aliceblue;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form { border-style: groove;
+border-color: darkblue ;
+border-width: 7px;
+margin-bottom: 50px;;
+}
+
+#survey-form { background-color: dodgerblue; }
+
+body { background-color: blue;
+margin-left: 200px;
+margin-right: 200px;
+width: 80%;
+margin: auto;
+padding: auto;}
+
+.name { padding-top: 30px; }
+
+textarea { margin: 15px 15px;
+    background-color: gold;
+    color: aliceblue;
+        font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.sub-button { padding-bottom: 30px; }
+
+#submit { background-color: blue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: gold;
+}
+
+footer { color: gold;
+margin-bottom: 10px;}
+
+.loveus { display: flex;
+    flex-direction: column;
+}
+
+.checks { margin-bottom: 10px;}
+
+.checkboxes { display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+#wrapper { display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+
+.font-color { color: blue; }
+
+input::placeholder { color: blue; }
